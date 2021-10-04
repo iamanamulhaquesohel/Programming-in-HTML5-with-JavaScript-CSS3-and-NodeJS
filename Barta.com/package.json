@@ -1,0 +1,19 @@
+{
+  "name": "barta.com",
+  "version": "1.0.0",
+  "description": "Realtime chat app with rooms",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "author": "Anamul Haque Sohel",
+  "license": "",
+  "dependencies": {
+    "express": "^4.17.*",
+    "jquery": "3.6.*",
+    "moment": "^2.24.*",
+    "socket.io": "3.1.*",
+    "socketio-file-upload": "0.7.3",
+    "uuid": "8.3.2"
+  }
+}
