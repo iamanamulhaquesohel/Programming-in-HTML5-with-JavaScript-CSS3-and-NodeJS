@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Evidence Exam-01</title>
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul class="menu">
+            <li class="menu-item"><a href="./index.html" class="nav-link brand">Monthly Exam 03</a></li>
+            <li class="menu-item"><a href="./index.html" class="nav-link">Home</a></li>
+            <li class="menu-item"><a href="./ev_01.html" class="nav-link">Evidence-01</a></li>
+            <li class="menu-item"><a href="./ev_02.html" class="nav-link">Evidence-02</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <section id="main-section">
+            <div class="row">
+                <div class="column "><br>
+                    <h3>Contact US:</h3>
+                    <hr>
+                    <form class="form-section bounce-top" id="frm" method="POST" action="/submit"
+                        enctype="multipart/form-data" novalidate>
+                        <div class="field">
+                            <label class="lebel">Full name:</label>
+                            <input type="text" name="name" id="name" class="control" placeholder="Enter Your Name" required/>
+                        </div>
+                        <div class="field">
+                            <label class="lebel">Email:</label>
+                            <input type="email" name="email" id="email" class="control" placeholder="Enter Your Email" required/>
+                        </div>
+                        <div class="field">
+                            <label class="lebel">City where you live:</label>
+                            <select name="city" id="city" class="control" required>
+                                <option value="Dhaka">Dhaka</option>
+                                <option value="Brahmanbaria">Brahmanbaria</option>
+                                <option value="Comilla">Comilla</option>
+                                <option value="Barishal">Barishal</option>
+                                <option value="" selected>Select one</option>
+                            </select>
+                        </div>
+                        <div class="field">
+                            <label class="lebel">Gender:</label>
+                            
+                            <input type="radio" name="gender" id="male" value="Male">
+                            <lebel>Male</lebel>
+                            <input type="radio" name="gender" id="female" value="Female">
+                            <lebel>Female</lebel>
+                        </div>
+                        <div class="field">
+                            <label class="lebel">Date of Birth:</label>
+                            <input type="date" name="dob" id="dob" class="control" placeholder="DD-AUG-YYYY" required />
+                        </div>
+                        <div class="field">
+                            <label class="lebel">Time of Birth:</label>
+                            <input type="text" name="tob" id="tob" class="control" placeholder="09:00" required />
+                        </div>
+                        <div class="field">
+                            <label class="lebel">Photo:</label>
+                            <input type="file" name="pic" id="pic" class="control" required />
+                        </div>
+                        <div class="field">
+                            <label class="lebel"></label>
+                            <button type="submit" id="submit" class="btn default">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="column"><br>
+                    <div id="data-shown" style="display: block;">
+                        <h3>Data will be shown below:</h3>
+                        <hr>
+                    </div>
+                    <div id="error" class="tilt-in-top-1" style="display: none;">
+                    </div>
+                    <div id="message_Data" class="tilt-in-top-1" style="display: none;">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer id="footer" class="container">
+        &copy;IsDB Evidence Exam- 2021 | All right Reserved.
+        <p>Created by <span>Anamul Haque Sohel</span></p>
+    </footer>
+    <script src="./script/mainScript.js"></script>
+</body>
+
+</html>
