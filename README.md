@@ -6,8 +6,9 @@ formidable
 jquery
 
 Run
-> git clone https://github.com/Majidkn/nodejs-simple-file-upload.git
-> cd nodejs-simple-file-upload
+> git clone https://github.com/iamanamulhaquesohel/Programming-in-HTML5-with-JavaScript-CSS3-and-NodeJS.git
+> cd Programming-in-HTML5-with-JavaScript-CSS3-and-NodeJS
+> cd Evidence_1264855
 > npm install
 > npm start
 
